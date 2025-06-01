@@ -1,0 +1,48 @@
+track JASPAR2024_TFBS_dm6
+shortLabel JASPAR2024 TFBS dm6
+longLabel TFBS predictions in Drosophila melanogaster (dm6) for all profiles in the JASPAR CORE insects collection (2024)
+html https://mencius.uio.no/JASPAR/JASPAR_genome_browser_tracks/2024/JASPAR2024_TFBS_help.html
+type bigBed 6 +
+labelFields name
+defaultLabelFields name
+searchIndex name
+visibility pack
+spectrum on
+bigDataUrl https://mencius.uio.no/JASPAR/JASPAR_genome_browser_tracks/2024/dm6/JASPAR2024_dm6.bb
+maxItems 100000
+filter.score 400
+filterByRange.score 0:1000
+filterValues.name abd-A,Abd-B,ac,achi,acj6,Adf1,Aef1,al,amos,Antp,aop,ap,ara,Atf-2,Atf3,Atf6,ato,Awh,bap,bcd,BEAF-32,Bgb::run,B-H1,B-H2,bigmax,bin,Blimp-1,bowl,br,br,br,br,brk,bs,bsh,BtbVII,btd,Bteb2,btn,byn,C15,cad,caup,Cf2,cg,CG11085,CG11294,CG11617,CG12605,CG15696,CG18599,CG3065,CG32105,CG32532,CG34031,CG4328,CG4360,CG4854,CG7928,CG8319,CG9876,CHES-1-like,ci,Clamp,clk,cnc::maf-S,crc,CrebA,CrebB,Crg-1,croc,crp,ct,CTCF,cwo,cyc,D,D1,D19B,da,dar1,Dbx,Deaf1,Dfd,Dif,dimm,dl,dl,Dll,dm,dmrt99B,Doc2,dpn,Dr,Dref,dsf,dsx,dve,E5,EcR,EcR::usp,Eip74EF,Eip75B,Elba1,Elba2,ems,en,erm,ERR,esg,E(spl)m3-HLH,E(spl)mbeta-HLH,E(spl)mdelta-HLH,E(spl)mgamma-HLH,Ets21C,Ets65A,Ets96B,Ets97D,Ets98B,eve,ewg,exd,exex,fd59A,Fer1,Fer2,fkh,FoxL1,foxo,FoxP,fru,ftz,ftz-f1,GATAd,GATAe,gcm,gcm2,grh,grn,gsb,Gsc,gt,h,H2.0,hb,hbn,Hey,HGTX,HHEX,hkb,HLH4C,Hmx,Hnf4,hng1,hr3,Hr38,Hr39,Hr78,Hsf,hth,ind,insv,inv,Jra,Kah,kay,ken,klu,kn,kni,knrl,Kr,l(3)neo38,lab,lbe,lbl,Lim1,Lim3,lmd,lms,luna,lz,M1BP,Mad,Max,mid,mirr,Mitf,Mnt,nau,NK7.1,nub,oc,odd,OdsH,onecut,opa,Optix,org-1,otp,ovo,pan,pb,pdm3,Pdp1,PHDP,pho,phol,pita,pnr,pnt,Poxm,Pph13,prd,Ptx1,Rel,repo,retn,Rfx,rib,ro,run,Rx,sage,sc,schlank,Scr,scrt,sd,sens,Six4,slbo,slou,slp1,slp2,sna,so,Sox100B,Sox102F,Sox14,Sox15,Sox21a,Sox21b,SoxN,Sp1,Spps,sqz,SREBP,SREBP,srp,ss,Stat92E,sug,Su(H),su(Hw),sv,svp,TfAP-2,tin,tj,tll,toy,Trl,ttk,tup,twi,tx,Ubx,unc-4,unpg,Usf,usp,vfl,vis,vnd,vri,Vsx1,Vsx2,vvl,wor,Xbp1,Xrp1,z,zen,zen2,ZIPIC
+
+track JASPAR2022_TFBS_dm6
+shortLabel JASPAR2022 TFBS dm6
+longLabel TFBS predictions in Drosophila melanogaster (dm6) for all profiles in the JASPAR CORE insects collection (2022)
+html http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/JASPAR2022_TFBS_help.html
+type bigBed 6 +
+labelFields TFName
+defaultLabelFields TFName
+searchIndex name
+visibility pack
+spectrum on
+bigDataUrl http://expdata.cmmt.ubc.ca/JASPAR/downloads/UCSC_tracks/2022/JASPAR2022_dm6.bb
+maxItems 100000
+filter.score 400
+filterByRange.score 0:1000
+filterValues.TFName abd-A,Abd-B,achi,al,Antp,ap,ara,Awh,bap,bcd,BEAF-32,Bgb::run,B-H1,B-H2,br,brk,bsh,btd,btn,C15,cad,caup,Cf2,CG11085,CG11294,CG11617,CG15696-RA,CG18599,CG32105,CG32532,CG34031,CG4328-RA,CG9876,Clamp,cnc::maf-S,ct,CTCF,D,Dbx,Deaf1,Dfd,dl,Dll,dmrt99B,Dr,Dref,dsx,dve,E5,EcR::usp,Eip74EF,Elba1,Elba2,ems,en,Ets21C,eve,exd,exex,fkh,ftz,GATAd,gcm,gcm2,grh,Gsc,gt,h,H2.0,hb,hbn,HGTX,HHEX,hkb,Hmx,Hsf,hth,ind,inv,kn,kni,Kr,lab,lbe,lbl,Lim1,Lim3,lms,M1BP,Mad,mirr,msl-1,NK7.1,nub,oc,odd,OdsH,onecut,opa,Optix,otp,ovo,pan,pb,Pdp1,PHDP,pho,pnr,Pph13,prd,Ptx1,repo,ro,Rx,schlank,Scr,sd,Six4,slbo,slou,slp1,sna,so,Stat92E,Su(H),su(Hw),sv,tin,tll,Trl,ttk,tup,twi,Ubx,unc-4,unpg,usp,vfl,vis,vnd,Vsx1,Vsx2,vvl,z,zen,zen2
+
+track JASPAR2020_TFBS_dm6
+shortLabel JASPAR2020 TFBS dm6
+longLabel TFBS predictions in Drosophila melanogaster (dm6) for all profiles in the JASPAR CORE insects collection (2020)
+html http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/JASPAR2020_TFBS_help.html
+type bigBed 6 +
+labelFields name
+defaultLabelFields name
+searchIndex name
+visibility pack
+spectrum on
+bigDataUrl http://expdata.cmmt.ubc.ca/JASPAR/downloads/UCSC_tracks/2020/JASPAR2020_dm6.bb
+maxItems 100000
+filter.score 400
+filterByRange.score 0:1000
+filterValues.name abd-A,Abd-B,achi,al,Antp,ap,ara,Awh,bap,bcd,BEAF-32,Bgb::run,B-H1,B-H2,br,brk,br(var.2),br(var.3),br(var.4),bsh,btd,btn,C15,cad,caup,Cf2,CG11085,CG11294,CG11617,CG15696-RA,CG18599,CG32105,CG32532,CG34031,CG4328-RA,CG9876,Clamp,Clamp,cnc::maf-S,ct,CTCF,D,Dbx,Deaf1,Dfd,dl,Dll,dl(var.2),dmrt99B,Dr,Dref,dve,E5,EcR::usp,Eip74EF,ems,en,Ets21C,eve,exd,exex,fkh,ftz,gcm2,grh,Gsc,gt,h,H2.0,hb,hbn,HGTX,HHEX,hkb,Hmx,Hsf,hth,ind,inv,kni,Kr,lab,lbe,lbl,Lim1,Lim3,lms,M1BP,Mad,mirr,NK7.1,nub,oc,odd,OdsH,onecut,opa,Optix,otp,ovo,pan,pb,Pdp1,PHDP,pho,pnr,Pph13,prd,Ptx1,repo,ro,Rx,schlank,Scr,sd,Six4,slbo,slou,slp1,sna,so,Stat92E,Su(H),su(Hw),sv,tin,tll,Trl,ttk,tup,twi,Ubx,unc-4,unpg,usp,vfl,vis,vnd,Vsx1,Vsx2,vvl,z,zen,zen2
+
