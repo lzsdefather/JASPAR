@@ -1,0 +1,125 @@
+<h2>Description</h2>
+
+<p>This UCSC Genome Browser track hub represents genome-wide predicted binding sites for TF (transcription factor) binding profiles in the <a href="https://jaspar.genereg.net/genome-tracks/" target="_blank">JASPAR</a> database CORE collection.</p>
+
+<h2>Genomes</h2>
+
+<p>A list of genomes for which we provide predictions is available  <a href="http://expdata.cmmt.ubc.ca/JASPAR/downloads/UCSC_tracks/" target="_blank">here</a>.</p>
+
+<h2>Display Conventions and Configuration</h2>
+
+<p> Shaded boxes represent predicted binding sites for each of the TF profiles in the JASPAR CORE collection.
+  
+  The shading of the boxes indicates the p-value of the profile's match to that position (scaled between 0-1000 scores, where 0 corresponds to a p-value of 1 and 1000 to a p-value &le; 10<sup>-10</sup>). Thus, the darker the shade, the lower (better) the p-value.</p>
+
+<p>The default view only shows predicted binding sites with scores of 400 or greater. This can be adjusted by adjusting the track settings.</p>
+
+<p><em>From <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1">https://genome.ucsc.edu/FAQ/FAQformat.html#format1</a>: </em>
+<table style="box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; border: 2px solid gray; margin-top: 10px; margin-left: 15px; font-size: 13px; color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+  <tbody style="box-sizing: border-box;">
+    <tr style="box-sizing: border-box;">
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">shade</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(226, 226, 226);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(198, 198, 198);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(170, 170, 170);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(141, 141, 141);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(113, 113, 113);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(85, 85, 85);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(56, 56, 56);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(28, 28, 28);">&nbsp;</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(0, 0, 0);">&nbsp;</td>
+    </tr>
+    <tr style="box-sizing: border-box;">
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">score in range  </td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">&le; 166</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">167-277</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">278-388</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">389-499</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">500-611</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">612-722</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">723-833</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">834-944</td>
+      <td style="box-sizing: border-box; padding: 1px 15px; text-align: left; border-bottom: 1px solid rgb(221, 221, 221);">&ge; 945</td>
+    </tr>
+  </tbody>
+</table>
+<p><em>Conversion table:</em></p>
+<table cellspacing="0" cellpadding="0">
+  <col width="87" />
+  <col width="87" />
+  <tr>
+    <td width="107"><div align="center"><strong>Track score</strong></div></td>
+    <td width="107"><div align="center"><strong>p-value</strong></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">0</div></td>
+    <td><div align="center">1</div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">100</div></td>
+    <td><div align="center">0.1</div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">131</div></td>
+    <td><div align="center">0.049</div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">200</div></td>
+    <td><div align="center">10<sup>-2</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">300</div></td>
+    <td><div align="center">10<sup>-3</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">400</div></td>
+    <td><div align="center">10<sup>-4</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">500</div></td>
+    <td><div align="center">10<sup>-5</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">600</div></td>
+    <td><div align="center">10<sup>-6</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">700</div></td>
+    <td><div align="center">10<sup>-7</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">800</div></td>
+    <td><div align="center">10<sup>-8</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">900</div></td>
+    <td><div align="center">10<sup>-9</sup></div></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">1000</div></td>
+    <td><div align="center">&le; 10<sup>-10</sup></div></td>
+  </tr>
+</table>
+
+<h2>Methods</h2>
+
+<p>For each TF binding profile in the JASPAR CORE  collection,  genomes were scanned for matches.</p>
+
+<p>For computation of relative scores and p-values, we  use PWMScan (Ambrosini et al. 2018). We select TFBS predictions with a PWM relative score ≥ 0.8 and a p-value &lt; 0.05. P-values were scaled between 0 (corresponding to a p-value of 1) and 1000 (p-value ≤ 10-10) for colouring of the genome tracks and to allow for comparison of prediction confidence between different profiles.</p>
+
+<p>Please refer to the supplementary information of the <a href="https://doi.org/10.1093/nar/gkz1001">JASPAR 2020 manuscript</a> for more details.</p>
+
+<h2>Data Availability</h2>
+
+<ul>
+  <li>Binding site predictions for all and individual TF profiles are available for download at <a href="http://expdata.cmmt.ubc.ca/JASPAR/downloads/UCSC_tracks/" target="_blank">http://expdata.cmmt.ubc.ca/JASPAR/downloads/UCSC_tracks/</a>.</li>
+  <li>Code and data used to create the UCSC tracks are available at <a href="https://github.com/wassermanlab/JASPAR-UCSC-tracks">https://github.com/wassermanlab/JASPAR-UCSC-tracks</a>.</li>
+  <li>The underlying JASPAR motif data is available through the JASPAR website at <a href="http://jaspar.genereg.net" target="_blank">http://jaspar.genereg.net</a>.</li>
+</ul>
+
+<p> All data is freely available.</p>
+
+<h2>References</h2>
+
+<p><strong>JASPAR 2022: the 9th release of the open-access database of transcription factor binding profiles.</strong></p>
+
